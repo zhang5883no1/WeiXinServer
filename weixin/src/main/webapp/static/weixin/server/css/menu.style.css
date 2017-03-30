@@ -1,0 +1,71 @@
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+a{ text-decoration:none}
+li{ list-style:none}
+a img { border: none}
+input,button{ outline: none; border: 0}
+table{border-collapse:collapse;border-spacing:0}
+body{ font-family:"微软雅黑"}
+
+
+.main{ width: 989px; border: #D9DADC 1px solid; margin: 0 auto; font-size: 14px}
+.menu{margin: 14px 30px; height: 582px}
+.left{ float: left; margin-right: 12px;position: relative;}
+.mobile_menu{ float: left; position: relative;width: 317px;height: 580px;background: transparent url(/static/weixin/server/images/bg_mobile.png) no-repeat 0 0;background-position: 0 0;border: 1px solid #e7e7eb;}
+.title{color: #fff; text-align: center;padding-top: 30px; font-size: 15px; width: auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; margin: 0 30px;}
+.mobile_list{position: absolute; bottom: 0; left: 0; right: 0; border-top: 1px solid #e7e7eb; background: transparent url(/static/weixin/server/images/bg_mobile_list.png) no-repeat 0 0;background-position: 0 0;background-repeat: no-repeat;padding-left: 43px;}
+.mobile_list>li{position: relative;float: left;text-align: center; line-height: 50px;width: 50%;}
+.mobile_list>li>a{display: block;width: auto;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;color: #616161;text-decoration: none;}
+.add{    background: url(/static/weixin/server/images/add.png) 0 0 no-repeat;width: 14px;height: 14px;vertical-align: middle;display: inline-block;margin-top: -2px;}
+.mobile_list>li.current>a{ border: 1px solid #44b549;line-height: 48px;background-color: #fff;color: #44b549;}
+.menu_box{position: absolute; left: 0;width: 100%;border: 1px solid #d0d0d0; bottom: 60px;background-color: #fafafa;border-top-width: 0;}
+.menu_box li{line-height: 44px;border: 1px solid transparent;margin: 0 -1px -1px; border-top: 1px solid #d0d0d0;}
+.menu_box a{display: block;width: auto;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;color: #616161;text-decoration: none;}
+.menu_box span{ display: block;width: auto;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;cursor: pointer;}
+.arrow{position: absolute;left: 50%; margin-left: -6px;}
+.arrow_out{bottom: -6px; display: inline-block;width: 0;height: 0; border-width: 6px;border-style: dashed;border-color: transparent;border-bottom-width: 0;border-top-color: #d0d0d0;border-top-style: solid;}
+.arrow_in{bottom: -5px;display: inline-block;width: 0;height: 0;border-width: 6px;border-style: dashed;border-color: transparent;border-bottom-width: 0;border-top-color: #fafafa;border-top-style: solid;}
+.right{ display: table-cell; vertical-align: top; width: 596px;}
+.rightBox{position: relative; padding-left: 12px;}
+.editor_inner{padding: 0 20px 5px;background-color: #f4f5f9; border: 1px solid #e7e7eb; min-height: 560px; padding-bottom: 20px;}
+.menu_form{padding: 9px 0;border-bottom: 1px solid #e7e7eb;}
+.menu_form h4{float: left; font-weight: 400}
+.extra{text-align: right;}
+.extra a{color: #459ae9;}
+.control_group{margin-bottom: 10px;margin-top: 30px; padding-bottom: 0;}
+.control_group>label{    float: left;width: 5em;margin-top: .3em; margin-right: 1em;font-size: 14px;}
+.frm_controls{display: table-cell;vertical-align: top;float: none;width: auto;}
+.frm_input_box{ display: inline-block; position: relative; height: 30px; line-height: 30px; vertical-align: middle; background-color: #fff; width: 228px; padding-right: 60px; padding: 0 10px; border: 1px solid #e7e7eb;}
+.frm_input_box input{ height: 23px; margin: 4px 0; width: 100%;background-color: transparent;border: 0;outline: 0; font-family: "微软雅黑"}
+.frm_controls p{ color: #8d8d8d;padding-top: 4px}
+.frm_controls label{display: inline-block;text-align: left;cursor: pointer;margin-right: 1em;}
+.frm_tab{padding-top: .3em;}
+.icon_radio{ width: 16px;height: 16px;vertical-align: middle;display: inline-block;margin-right: 3px;margin-top: -2px;background: url(/static/weixin/server/images/icon_radio.png) 0 0 no-repeat;}
+.lbl_content{text-align: left;cursor: pointer;}
+.frm_tab input{ position: absolute;left: -999em;}
+.selected .icon_radio{ background: url(/static/weixin/server/images/icon_radio.png) 0 -16px no-repeat}
+.menu_content_container{ background:#fff; border: #E7E7EB 1px solid}
+.tab_navs{border-bottom: #E7E7EB 1px solid;}
+.tab_navs_box{ width: 420px;  line-height: 38px; height: 38px;}
+.tab_navs_box li{ display: inline-block;vertical-align: top;}
+.tab_navs_box a{display: block;text-decoration: none;color: #8d8d8d;outline: 0;padding: 0 20px;}
+.tab_navs_box a i{margin-right: 5px;margin-top: -2px;width: 20px;height: 20px;vertical-align: middle;display: inline-block; background: url(/static/weixin/server/images/word1.png) 0 0 no-repeat;}
+.tab_navs_box a:hover i{background: url(/static/weixin/server/images/word1.png) 0 -30px no-repeat}
+.tab_content{ height: 151px;padding: 14px 20px;overflow-y: auto; overflow-x: hidden;outline: 0; border: none; width: 500px;resize:none; font-family: "微软雅黑"; font-size: 14px}
+.editor_toolbar{ overflow: hidden;padding: 0 20px;height: 36px;border-top: #E7E7EB 1px solid}
+.emotion{background: url(/static/weixin/server/images/emotion.png) 0 0 no-repeat; width: 20px;height: 20px;vertical-align: middle;display: inline-block; float: left;margin-top: 8px;line-height: 999em;overflow: hidden;}
+.comment{width:680px; position:relative}
+.qqFace{margin-top:4px;background:#fff;padding:2px;border:1px #dfe6f6 solid;} 
+.qqFace table td{padding:0px;} 
+.qqFace table td img{cursor:pointer;border:1px #fff solid;} 
+.qqFace table td img:hover{border:1px #0066cc solid;} 
+.editor_toolbar p{ float: right;color: #8d8d8d; line-height: 36px}
+.urlForm{padding: 16px 20px;}
+.urlForm p{color: #8d8d8d;}
+.url_group{ margin-top: 20px}
+.url_group a{ color: #459ae9}
+.url_group a:hover{ text-decoration: underline;}
+.editor_arrow_wrp{position: absolute;top: 545px;left: 0;}
+.editor_arrow{display: inline-block;width: 0;height: 0;border-width: 12px;border-style: dashed;border-color: transparent;border-left-width: 0;border-right-color: #e7e7eb;border-right-style: solid; position: absolute;}
+.editor_arrow_out{left: 0;}
+.editor_arrow_in{ left: 1px;border-right-color: #f4f5f9;}
